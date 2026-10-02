@@ -11,9 +11,13 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000).
 
-## Layout
+## What you can do
 
-- `app/page.js` home
-- `app/gallery/page.js` ape gallery
-- `app/about/page.js` project notes
-- `data/apes.js` crew data
+- Search the crew by name, trait, stone, or id
+- Filter by rarity
+- Save faces in this browser
+- Reveal a random portrait
+- Click a card to inspect it
+
+Portrait bytes live in `data/portraits` and are served from `/api/portrait/[name]`.
+Crew data lives in `data/apes.js`.

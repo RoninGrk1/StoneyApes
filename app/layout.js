@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export const metadata = {
   title: "StoneyApes",
-  description: "A stone-cut crew of apes. Next.js starter for the StoneyApes project.",
+  description: "A stone-cut crew of apes. Search, save, and inspect the gallery.",
 };
 
 export default function RootLayout({ children }) {

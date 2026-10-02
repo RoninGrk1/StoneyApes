@@ -8,8 +8,8 @@ export default function AboutPage() {
       <p className="kicker">The cut</p>
       <h1>About</h1>
       <p className="lede">
-        StoneyApes is a Next.js App Router starter. Pages live in app/, the
-        crew list lives in data/apes.js, and styles live in app/globals.css.
+        StoneyApes is a Next.js App Router site. The gallery is a client view: search, rarity
+        chips, a random reveal, and saves kept in this browser.
       </p>
       <section className="card" style={{ marginTop: 24 }}>
         <p className="meta">Run it</p>
