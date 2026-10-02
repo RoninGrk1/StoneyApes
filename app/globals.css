@@ -1,0 +1,140 @@
+:root {
+  --bg: #12110f;
+  --bg-2: #1c1915;
+  --stone: #c8b89a;
+  --gold: #e2b15a;
+  --ink: #f4efe6;
+  --muted: #a39888;
+  --line: rgba(226, 177, 90, 0.28);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: radial-gradient(circle at top, #2a241c 0%, var(--bg) 48%);
+  color: var(--ink);
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.shell {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 28px 20px 64px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  border-bottom: 1px solid var(--line);
+  padding-bottom: 16px;
+}
+
+.brand {
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: var(--gold);
+}
+
+.links {
+  display: flex;
+  gap: 18px;
+  font-size: 14px;
+  color: var(--stone);
+}
+
+.hero {
+  padding: 72px 0 36px;
+}
+
+.kicker {
+  color: var(--gold);
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+h1 {
+  font-size: clamp(48px, 8vw, 92px);
+  line-height: 0.9;
+  margin: 12px 0 18px;
+}
+
+.lede {
+  max-width: 560px;
+  color: var(--stone);
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.row {
+  display: flex;
+  gap: 12px;
+  margin-top: 28px;
+  flex-wrap: wrap;
+}
+
+.btn {
+  border: 1px solid var(--gold);
+  color: var(--bg);
+  background: var(--gold);
+  padding: 12px 18px;
+  border-radius: 999px;
+  font-size: 14px;
+}
+
+.btn.ghost {
+  background: transparent;
+  color: var(--gold);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 16px;
+}
+
+.card {
+  background: var(--bg-2);
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  padding: 18px;
+  min-height: 180px;
+}
+
+.ape-mark {
+  height: 92px;
+  border-radius: 14px;
+  background:
+    radial-gradient(circle at 35% 40%, #3a332b 0 18%, transparent 19%),
+    radial-gradient(circle at 65% 40%, #3a332b 0 18%, transparent 19%),
+    linear-gradient(160deg, #8d7b62, #3d342b);
+  margin-bottom: 14px;
+}
+
+.meta {
+  color: var(--muted);
+  font-size: 13px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+h2 {
+  margin: 8px 0;
+}
+
+.section {
+  margin-top: 28px;
+}
